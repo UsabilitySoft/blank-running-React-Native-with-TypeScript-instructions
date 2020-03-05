@@ -12,14 +12,15 @@ You will be creating two project folders and we will copy stuff from one to the 
 
 ---
 
-*Navigate to your projects directory and run:*
+Navigate to your projects directory and run:
 
 `npx react-native init "NEW_APP_NAME" --template react-native-template-typescript`
 
-*Create a folder in your projects directory for a second app (this will turn out to be your real app's source code), give it a temporary name e.g. "NEW_APP_NAME_TEMP".*
+Create a folder in your projects directory for a second app (this will turn out to be your real app's source code), give it a temporary name e.g. "NEW_APP_NAME_TEMP".
 
+`mkdir NEW_APP_NAME_TEMP`
 
-*Copy the content from [https://github.com/react-native-community/react-native-template-typescript/tree/master/template] into "NEW_APP_NAME_TEMP".*
+Copy the content from https://github.com/react-native-community/react-native-template-typescript/tree/master/template into "NEW_APP_NAME_TEMP" - I cloned the source repo into another folder first.
 
 `Rename folder "NEW_APP_NAME" to "NEW_APP_NAME_OLD"`
 `Rename folder "NEW_APP_NAME_TEMP" to "NEW_APP_NAME"`
