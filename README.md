@@ -8,6 +8,7 @@ You will be creating two project folders and we will copy stuff from one to the 
 
 Presuming you have NPM and NPX installed.
 
+---
 *Navigate to your projects directory and run:*
 
 `npx react-native init "NEW_APP_NAME" --template react-native-template-typescript`
@@ -48,8 +49,8 @@ Presuming you have NPM and NPX installed.
 `cd ios`
 `pod install`
 
-To test your new TypeScript app.
+Now everything should work, you can have a look in the package.json file o test your new TypeScript app!
 
-`yarn test`
+`npm run test`
 
 `yarn ios`
