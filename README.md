@@ -1,4 +1,4 @@
-# blank-running-React-Native-with-TypeScript-instructions
+# Blank running React Native with TypeScript Instructions
 Instructions for a quick way that works to fire up a React Native latest template with TypeScript March 2020.
 
 I tried a couple of things to fire up a blank TypeScript template with my own app name but none seemed to work including Microsoft's repo or the official React Native docs, so I did it this way to get the result. I am sure there are other options such as with Ignite or something else but this process works for me right now. And uses the latest version of React Native and compatible TypeScript. I hope it can help you.
@@ -49,8 +49,7 @@ Navigate to your new folder using a terminal to install your Node.js packages:
 
 Navigate to the ios folder using a terminal to run your iOS POD installation:
 
-`cd ios`
-`pod install`
+`cd ios && pod install`
 
 Now everything should work, you can have a look in the package.json file o test your new TypeScript app!
 
