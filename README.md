@@ -40,7 +40,7 @@ Presuming you have NPM and NPX installed.
 `Find (case sensitive) "HelloWorld" replace with "NEW_APP_NAME" in "NEW_APP_NAME" source code folder`
 `Find (case sensitive) "helloworld" replace with "NEW_APP_NAME" in "NEW_APP_NAME" source code folder`
 
-###That has completed the obscure steps to initiate your project, you can now do the normal steps to complete the setup###
+### That has completed the obscure steps to initiate your project, you can now do some normal steps to complete the setup:
 
 *Navigate to your new folder using a terminal to install your Node.js packages:*
 `npm install`
