@@ -1,14 +1,17 @@
 # Blank running React Native with TypeScript Instructions
-Instructions for a quick way that works to fire up a React Native latest template with TypeScript March 2020.
+March 2020.
 
-I tried a couple of things to fire up a blank TypeScript template with my own app name but none seemed to work including Microsoft's repo or the official React Native docs, so I did it this way to get the result. I am sure there are other options such as with Ignite or something else but this process works for me right now. And uses the latest version of React Native and compatible TypeScript. I hope it can help you.
+I tried a couple of things to fire up a blank TypeScript template *with my own app name* but none seemed to work including Microsoft's repo or the official React Native docs, so I did it this way to get the result.
+
+There may be other options with Ignite or something but this process works for me right now, uses the latest version of React Native and compatible TypeScript. I hope it can help you.
+
+Presuming you have Node.js for NPM, NPX (and Cocoapods for iOS development on Mac) installed.
 
 You will be creating two project folders and we will copy stuff from one to the other to get the desired result.
 "NEW_APP_NAME" is the name of your new React Native app.
 
-Presuming you have Node.js for NPM, NPX (and Cocoapods for iOS development on Mac) installed.
-
 ---
+
 *Navigate to your projects directory and run:*
 
 `npx react-native init "NEW_APP_NAME" --template react-native-template-typescript`
