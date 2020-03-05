@@ -33,13 +33,12 @@ You can now delete "NEW_APP_NAME_OLD" which was the project you inited.
 
 `delete "NEW_APP_NAME_OLD"`
 
-Navigate to "NEW_APP_NAME" (the template project folder which is our new app)
-
-Replace occurances of HelloWorld (this was the project name in the copied template)
+Navigate to "NEW_APP_NAME" and replace occurances of HelloWorld (this was the project name for the copied template):
 
 `Find (case sensitive) "HelloWorld" replace with "NEW_APP_NAME" in "NEW_APP_NAME" source code folder`
 
 `Find (case sensitive) "helloworld" replace with "NEW_APP_NAME" in "NEW_APP_NAME" source code folder`
+
 
 ### That has completed the obscure steps to initiate your project, you can now do some normal steps to complete the setup:
 
@@ -47,12 +46,16 @@ Navigate to your new folder using a terminal to install your Node.js packages:
 
 `npm install`
 
+
 Navigate to the ios folder using a terminal to run your iOS POD installation:
 
-`cd ios && pod install`
+`cd ios`
 
-Now everything should work, you can have a look in the package.json file o test your new TypeScript app!
+`pod install`
+
+
+Now everything should work, you can have a look in the package.json file to test your new TypeScript app!
 
 `npm run test`
 
-`npm run ios`
+`react-native run-ios`
