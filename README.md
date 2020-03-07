@@ -20,7 +20,7 @@ Create a folder in your projects directory for a second app (this will turn out 
 
 `mkdir NEW_APP_NAME_TEMP`
 
-Copy the content from https://github.com/react-native-community/react-native-template-typescript/tree/master/template into "NEW_APP_NAME_TEMP" - I cloned the source repo into another folder first.
+Copy the content from https://github.com/react-native-community/react-native-template-typescript/tree/master/template into "NEW_APP_NAME_TEMP" - I cloned the source repo into another folder and copied from there.
 
 `Rename folder "NEW_APP_NAME" to "NEW_APP_NAME_OLD"`
 `Rename folder "NEW_APP_NAME_TEMP" to "NEW_APP_NAME"`
